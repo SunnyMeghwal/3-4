@@ -1,0 +1,12 @@
+ 
+/*
+div p a{background: darkorange;} 
+#demo, #demo p{background-color: brown;}
+input{ background: transparent;border:none;border-bottom: 1px solid #333333;}
+*{margin: 0;}
+
+.child,.box{width: 170px; height:170px; border: 5px solid #333333;}
+.left{float: left;}
+.right{float: right;}
+.parent{width: 100%;text-align: right;}
+.child{display: inline-block}*/

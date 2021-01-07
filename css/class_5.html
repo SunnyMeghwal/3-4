@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        border-collapse: separate;
+        empty-cells: hide;
+      }
+      td {
+        background-color: blueviolet;
+      }
+      /* div {
+        width: 200px;
+        height: 200px;
+        background-color: blueviolet;
+        border: 10px solid #333333;
+        border-image: url(https://cdn5.vectorstock.com/i/1000x1000/23/39/chinese-border-design-vector-24212339.jpg)
+          1 2;
+      } */
+      .parent {
+        width: 1000px;
+        background-color: brown;
+        display: table;
+        padding: 10px;
+      }
+      .row {
+        display: table-row;
+      }
+      .child {
+        background-color: cadetblue;
+        display: table-cell;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="row">
+        <div class="child">hell</div>
+        <div class="child">hell</div>
+        <div class="child">hell</div>
+        <div class="child">hell</div>
+        <div class="child">hell</div>
+      </div>
+      <div class="row">
+        <div class="child">hell</div>
+        <div class="child">hell</div>
+        <div class="child">hell</div>
+        <div class="child">hell</div>
+        <div class="child">hell</div>
+      </div>
+    </div>
+  </body>
+</html>

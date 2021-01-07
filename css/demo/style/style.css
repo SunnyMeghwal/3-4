@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "open sans", sans-serif;
+  color: #444444;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+h1,
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 100px;
+}
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+h5 {
+  font-size: 14px;
+  font-weight: 500;
+}
+p {
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: #444444;
+  text-transform: uppercase;
+}
+.containerFluid {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.container {
+  width: 1180px;
+  height: auto;
+  margin: 0 auto;
+}
+.header {
+  height: 60px;
+  background-color: #ffffff;
+  line-height: 60px;
+  position: fixed;
+  z-index: 111111;
+  text-align: center;
+  margin-top: 20px;
+  width: 1180px;
+}
+.logo {
+  background: #009970;
+  padding: 0 20px;
+  float: left;
+}
+.logo a {
+  color: #ffffff;
+}
+.navBar {
+  float: right;
+}
+.navBar ul li {
+  list-style: none;
+  float: left;
+  padding: 0 20px;
+  position: relative;
+}
+.navBar ul li ul {
+  background: #f3f3f3;
+  position: absolute;
+  white-space: nowrap;
+  display: none;
+}
+
+.navBar ul li:hover ul {
+  display: block;
+}
+.navBar ul li a {
+  font-size: 14px;
+}
+.navBar ul li .btn {
+  background: #009970;
+  padding: 0 18px;
+  margin-top: 0;
+  line-height: 40px;
+  width: auto;
+}
+
+img {
+  width: 100%;
+}
+.bg {
+  position: relative;
+  height: 80%;
+  overflow: hidden;
+  text-align: center;
+}
+.bgDark {
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.bgDescription {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  text-align: center;
+  z-index: 1;
+  color: #ffffff;
+}
+.btn {
+  padding: 10px 20px;
+  text-align: center;
+  border: 1px solid #ffffff;
+  margin-top: 30px;
+  display: inline-block;
+
+  border-radius: 20px;
+  color: #ffffff;
+}
+.clients {
+  background-color: #f6f6f7;
+  overflow: hidden;
+}
+.clients .navBar ul li {
+  width: 196px;
+  padding: 20px 0;
+  text-align: center;
+  overflow: hidden;
+}
+.clients .navBar ul li img {
+  width: 60px;
+  filter: grayscale(20);
+  transition: all 0.2s ease-in-out;
+}
+.clients .navBar ul li img:hover {
+  filter: none;
+  transform: scale(1.2);
+}
+.box {
+  width: 50%;
+  float: left;
+  margin: 50px 0;
+  padding: 50px 0;
+}
+.box h2 {
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.box ul {
+  list-style-position: inside;
+}
+.box p {
+  margin-bottom: 14px;
+}
+.box p:last-child {
+  margin-top: 20px;
+  font-style: oblique;
+}
+.successCount {
+  background: #009970;
+  padding: 50px 0;
+  float: left;
+  width: 100%;
+  color: #ffffff;
+}
+.successCount ul li {
+  width: calc(100% / 4);
+  float: left;
+  text-align: center;
+  list-style: none;
+  font-weight: 500;
+}
+.successCount ul li h2 {
+  line-height: 55px;
+  font-family: "open sans", sans-serif;
+  font-size: 35px;
+}
+.leftBox {
+  width: 25%;
+  padding: 30px 25px;
+  float: left;
+  margin-right: 20px;
+  background-color: #009970;
+  margin-top: 50px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.rightBox {
+  width: calc(75% - 120px);
+  padding: 30px 25px;
+  float: left;
+
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.leftBox h2 {
+  line-height: 40px;
+  font-size: 35px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.leftBox h2:before {
+  content: url(https://lh3.googleusercontent.com/proxy/WvMBTqODKqNVrKykzpiEUlTUJWaN0oFTSrBjX_HRp7S7UiBQ2oni00_NPPx_bhsf_2l3TFgH5NurW2i7aIHWyaGff_cmTT3yZyZ7xr-fyXxBekIteP_51VhyJA);
+  position: absolute;
+  color: #ffffff;
+  left: 0;
+  top: -15px;
+  width: 50px;
+  height: 20px;
+}
+.leftBox h2:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  background-color: #ffffff;
+  left: 0;
+  bottom: -15px;
+}
+
+.leftBox .btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+}
+.rightBox ul li {
+  width: calc(100% / 3 - 64px);
+  margin-top: 50px;
+  padding: 25px;
+  box-shadow: 2px 2px 14px 1px #f3f3f3;
+  float: left;
+  list-style: none;
+  margin: 50px 20px;
+  text-align: center;
+}
+.rightBox ul li:first-child,
+.rightBox ul li:last-child {
+  margin: 50px 0 !important;
+}
+
+.rightBox ul li i,
+.rightBox ul li h4 {
+  margin: 15px;
+}
+.action {
+  background-image: url(../images/hero-bg.jpg);
+  padding: 70px 0;
+  position: relative;
+  background-attachment: fixed;
+  color: #ffffff;
+  height: 10vh;
+}
+.actionBg {
+  position: absolute;
+
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #333333bd;
+}
+.overText ul li {
+  width: calc(100% / 3 - 28px);
+  height: 262px;
+  margin: 20px 20px;
+  float: left;
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+}
+.overText ul li:hover .overTextContent {
+  background-color: #44444488;
+  transition: all 1s ease-in-out;
+}
+.overText ul li img {
+  width: 100%;
+}
+.right {
+  float: right !important;
+  margin-right: 0 !important;
+}
+.left {
+  float: left !important;
+  margin-left: 0 !important;
+}
+.overTextContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.overTextContent h5 {
+  display: none;
+}
+.overText ul li:hover .overTextContent h5 {
+  display: block;
+}
+/* .overText ul li:nth-child(odd) {
+  padding: 10px;
+  background-color: #444444;
+}
+ */
