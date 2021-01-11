@@ -1,0 +1,76 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a:active {
+        background-color: blueviolet;
+      }
+      input:focus {
+        outline: none;
+      }
+      img {
+        outline: 5px solid #333333;
+        outline-offset: -20px;
+      }
+      :link {
+        color: chartreuse;
+      }
+      a:visited {
+        color: coral;
+      }
+      input:disabled {
+        cursor: not-allowed;
+        color: crimson;
+      }
+      /* input:enabled {
+        background-color: crimson;
+      } */
+
+      .styled-checkbox {
+        position: absolute;
+        opacity: 0;
+      }
+      .styled-checkbox + label {
+        position: relative;
+        cursor: pointer;
+        padding: 0;
+      }
+      .styled-checkbox + label:before {
+        content: "";
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: text-top;
+        width: 20px;
+        height: 20px;
+        background: white;
+      }
+      .styled-checkbox:hover + label:before {
+        background: #f35429;
+      }
+      .styled-checkbox:focus + label:before {
+        box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+      }
+      .styled-checkbox:checked + label:before {
+        background: #f35429;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#"> click me!</a>
+    <a href="#w"> click me!</a>
+    <input type="text" disabled />
+    <input type="text" />
+    <input
+      class="styled-checkbox"
+      id="styled-checkbox-1"
+      type="checkbox"
+      value="value1"
+    />
+    <label for="styled-checkbox-1">Checkbox</label>
+
+    <!-- 
+    <img src="../images/abc.jpg" alt="" /> -->
+  </body>
+</html>
