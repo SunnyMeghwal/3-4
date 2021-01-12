@@ -27,50 +27,217 @@
       /* input:enabled {
         background-color: crimson;
       } */
-
-      .styled-checkbox {
-        position: absolute;
-        opacity: 0;
+      a::selection {
+        background-color: chocolate;
+        color: cornflowerblue;
       }
-      .styled-checkbox + label {
-        position: relative;
-        cursor: pointer;
-        padding: 0;
+      ul li:first-child {
+        background-color: crimson;
+        margin: 0 !important;
       }
-      .styled-checkbox + label:before {
-        content: "";
-        margin-right: 10px;
-        display: inline-block;
-        vertical-align: text-top;
-        width: 20px;
-        height: 20px;
-        background: white;
+      ul li:last-child {
+        background-color: crimson;
+        margin: 0 !important;
       }
-      .styled-checkbox:hover + label:before {
-        background: #f35429;
+      p::first-line {
+        background-color: darkmagenta;
       }
-      .styled-checkbox:focus + label:before {
-        box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+      p::first-letter {
+        font-size: 100px;
+        color: darkorange;
       }
-      .styled-checkbox:checked + label:before {
-        background: #f35429;
-        color: burlywood;
+      ul li:nth-child(5) {
+        background-color: darkred;
+      }
+      ul li:hover:nth-child(odd) {
+        background-color: darkred;
+      }
+      ul li:hover:nth-child(even) {
+        background-color: deeppink;
+      }
+      ul li {
+        margin: 0 100px;
       }
     </style>
   </head>
   <body>
+    <p>
+      <span
+        >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+        placeat animi quibusdam quos mollitia consequatur consectetur, quis
+        ipsum modi laboriosam obcaecati suscipit at totam nisi nobis. Magnam
+        nihil magni ab.</span
+      >
+      <span
+        >Ipsam repellendus odit cumque ad eum, amet harum quia eius magnam modi
+        ipsum reprehenderit dignissimos repellat nam ab illum illo est. Modi
+        numquam quos totam sunt deserunt a ratione necessitatibus.</span
+      >
+      <span
+        >Dignissimos, nihil? Quo a assumenda odit! Officiis laborum quasi modi
+        asperiores. Explicabo quisquam laudantium nisi neque iste deleniti
+        accusantium rem, magnam quaerat labore et dolor aliquid accusamus
+        ducimus fugiat quod!</span
+      >
+      <span
+        >Molestias illum, possimus nam consequatur recusandae atque esse dolorum
+        culpa beatae hic, fugiat iure aspernatur ut. Hic aliquid maxime, facilis
+        unde architecto laboriosam dignissimos nam nesciunt, inventore vitae
+        provident voluptas!</span
+      >
+      <span
+        >Iste esse magni placeat odio, ratione dolore officia neque nulla itaque
+        tempora perferendis ipsam, totam, quae nostrum facere at id delectus ex
+        animi ullam. Sit blanditiis praesentium eligendi recusandae rerum?</span
+      >
+      <span
+        >Ratione in laboriosam sequi eos dignissimos maxime adipisci recusandae
+        ut totam voluptatem sit iure aperiam cupiditate voluptate blanditiis
+        dolore sunt est, atque suscipit inventore neque? Quaerat vero dicta
+        neque nemo?</span
+      >
+      <span
+        >Animi nisi similique quibusdam, at facilis officiis amet pariatur
+        expedita commodi error iusto, ea possimus rem quos totam dolore
+        doloremque doloribus non! Vero eveniet assumenda odio expedita ipsam
+        blanditiis deleniti?</span
+      >
+      <span
+        >Molestias, ad! Vitae similique rerum sed pariatur deleniti magni autem
+        nisi est praesentium, aspernatur voluptatibus tenetur illum quos
+        doloribus iusto dolores cupiditate distinctio. Ratione quo magni quos
+        cumque repudiandae obcaecati?</span
+      >
+      <span
+        >Quia provident voluptatem perspiciatis vero aperiam dolor cupiditate,
+        dolorem, est voluptate sapiente, veniam reiciendis eius commodi nemo
+        reprehenderit molestiae adipisci porro consequuntur asperiores ducimus
+        quaerat? Maxime consequuntur sapiente aliquid totam!</span
+      >
+      <span
+        >Ab voluptates sequi incidunt deleniti. Maiores officiis consequatur
+        esse quis aspernatur adipisci facere deserunt libero mollitia! Inventore
+        labore, nobis minima animi, necessitatibus deserunt nam amet nemo, culpa
+        est perspiciatis velit!</span
+      >
+      <span
+        >Voluptate voluptates repellendus consequatur cum, quaerat deleniti
+        quidem nam. Repellat odio, itaque eos iste quis assumenda beatae dolor
+        velit dolorem eius atque fugit, quam, ad perspiciatis. Aspernatur unde
+        iusto laborum.</span
+      >
+      <span
+        >Possimus illum fugiat optio quam, quibusdam aperiam tempora
+        exercitationem. Explicabo at, officiis totam laudantium dolores
+        quibusdam numquam quaerat rerum neque! Non similique quam nemo tempora
+        impedit fugit, inventore error culpa!</span
+      >
+      <span
+        >Quae et ratione repellat ut illum ducimus quidem eligendi repudiandae
+        porro mollitia nisi quia, sequi assumenda itaque exercitationem
+        similique velit commodi! Deleniti voluptatibus natus rerum molestiae eos
+        nobis. Non, sapiente.</span
+      >
+      <span
+        >Dolor, cumque adipisci sapiente ab optio architecto aspernatur
+        recusandae ex numquam eos exercitationem ullam maxime magnam facilis
+        ipsa earum atque voluptate tempore nesciunt dolorem perferendis
+        assumenda aperiam. Iure, excepturi vitae?</span
+      >
+      <span
+        >Recusandae, consectetur repellendus sit fuga magni est consequuntur
+        suscipit eveniet et, deserunt itaque quidem commodi ab voluptatem
+        nesciunt officiis amet reprehenderit a officia deleniti asperiores
+        consequatur veritatis dolorem. Inventore, neque.</span
+      >
+      <span
+        >Veritatis provident cumque vero, quo rem commodi natus, minus
+        distinctio totam fugiat in maxime accusantium autem nesciunt consectetur
+        soluta iure ipsum! Quam in aliquam optio aspernatur natus officiis omnis
+        dicta!</span
+      >
+      <span
+        >Expedita, rerum temporibus. Quam assumenda, rerum non error impedit
+        modi adipisci in officiis fugiat earum tenetur commodi officia dolorem
+        quod sed excepturi aspernatur ex inventore natus nam suscipit! Aut,
+        sint?</span
+      >
+      <span
+        >Commodi, et quis. Optio facere molestiae nobis! Consectetur eligendi
+        consequatur libero vitae cum voluptatum illum hic atque odio, sint velit
+        enim non necessitatibus exercitationem quam porro, ad, qui deserunt
+        eveniet.</span
+      >
+      <span
+        >Adipisci ad inventore laudantium excepturi earum quis dolor facilis
+        aliquam laboriosam aliquid et esse totam ipsum autem id sint nisi saepe
+        magnam nesciunt sit accusantium quas, corrupti voluptate molestiae.
+        Officiis.</span
+      >
+      <span
+        >Enim debitis voluptas ducimus, incidunt, ex cum error nisi sunt facere
+        illo libero reprehenderit blanditiis temporibus eos quis voluptate fuga
+        esse voluptates explicabo tempora sequi eaque culpa! Minus, nihil
+        aut?</span
+      >
+    </p>
+    <ul>
+      <li>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam eaque
+        ut ab. Distinctio autem consectetur molestiae corporis velit quisquam
+        accusantium aut ducimus? Inventore et eligendi ut doloremque
+        reprehenderit sed eum.
+      </li>
+      <li>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam eaque
+        ut ab. Distinctio autem consectetur molestiae corporis velit quisquam
+        accusantium aut ducimus? Inventore et eligendi ut doloremque
+        reprehenderit sed eum.
+      </li>
+      <li>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam eaque
+        ut ab. Distinctio autem consectetur molestiae corporis velit quisquam
+        accusantium aut ducimus? Inventore et eligendi ut doloremque
+        reprehenderit sed eum.
+      </li>
+      <li>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam eaque
+        ut ab. Distinctio autem consectetur molestiae corporis velit quisquam
+        accusantium aut ducimus? Inventore et eligendi ut doloremque
+        reprehenderit sed eum.
+      </li>
+      <li>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam eaque
+        ut ab. Distinctio autem consectetur molestiae corporis velit quisquam
+        accusantium aut ducimus? Inventore et eligendi ut doloremque
+        reprehenderit sed eum.
+      </li>
+      <li>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam eaque
+        ut ab. Distinctio autem consectetur molestiae corporis velit quisquam
+        accusantium aut ducimus? Inventore et eligendi ut doloremque
+        reprehenderit sed eum.
+      </li>
+      <li>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam eaque
+        ut ab. Distinctio autem consectetur molestiae corporis velit quisquam
+        accusantium aut ducimus? Inventore et eligendi ut doloremque
+        reprehenderit sed eum.
+      </li>
+    </ul>
     <a href="#"> click me!</a>
     <a href="#w"> click me!</a>
     <input type="text" disabled />
     <input type="text" />
-    <input
-      class="styled-checkbox"
-      id="styled-checkbox-1"
-      type="checkbox"
-      value="value1"
-    />
-    <label for="styled-checkbox-1">Checkbox</label>
-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis magni
+    fugiat ex earum voluptas voluptates esse. Totam ut architecto nemo quasi?
+    Vitae temporibus quis, ea qui maxime ducimus quae blanditiis? Lorem ipsum
+    dolor sit amet consectetur adipisicing elit. Unde doloribus, laboriosam
+    incidunt quaerat voluptate, quae omnis reiciendis eum minus repudiandae ipsa
+    blanditiis eveniet quidem similique itaque maiores optio cum
+    temporibus?Officiis possimus perferendis mollitia quo qui eos ut est sed
+    nam. Sit voluptate corrupti odit reprehenderit, aliquid blanditiis amet
+    veniam, velit dolores, maiores id harum iusto pariatur ipsam ullam minus.
     <!-- 
     <img src="../images/abc.jpg" alt="" /> -->
   </body>
