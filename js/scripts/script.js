@@ -16,7 +16,7 @@ for(i = 1; i < 100; i++)
     }
 
 }
-*/
+
 
 var person_id = [1,2,3,4,5,6,7,8,9,10]
 var person_name = ['Sanjay','Shubham','Ritik','Rohan','Praveen','Jeetu','Prithvi','Ram','Shyam','Ritik ki gf']
@@ -33,4 +33,23 @@ for(i=0; i < person_id.length; i++){
 
 }
 
-document.write('</table>')
+document.write('</table>')*/
+
+var nav_itm = ['home','about','contact','gallery'];  
+var nav = document.getElementById('nav');  
+
+var ul = document.createElement('ul');
+for(i=0; i < nav_itm.length;i++)
+{
+    
+     li =  document.createElement('li')
+     a =  document.createElement('a')
+     li.appendChild(a)
+     a.innerHTML = nav_itm[i];
+     a.setAttribute('href',nav_itm[i]+'.html')
+     li.setAttribute('class','navItem')
+     ul.appendChild(li);
+}
+nav.appendChild(ul);
+
+   
